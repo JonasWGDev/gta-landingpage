@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GTA - Landing Page</title>
+        <link rel="icon" href="./src/images/favicon.png">
+
+        <link rel="stylesheet" href="./src/css/style.css">
+    </head>
+
+    <body>
+        <header  class="display-flex">
+            <div id="logo" class="display-flex">
+                <img id="rockstar-logo" src="./src/images/logo-rockstar.svg" alt="Logo da empresa rockstar games studios">
+                <hr>
+                <img id="gtav-logo" src="./src/images/logo-gta.svg" alt="Logo do jogo GTA V">
+            </div><!-- logo -->
+
+            <nav id="nav-desktop">
+                <ul class="display-flex">
+                    <li><a href="/" target="_self">Home</a></li>
+                    <li><a href="#buy-now" target="_self">Comprar</a></li>
+                    <li><a href="https://support.rockstargames.com/br/categories/200013306" target="_blank">Suporte</a></li>
+                </ul>
+            </nav><!-- navbar -->
+
+            <div id="btn-side-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <nav id="nav-mobile" class="disable">
+                <ul class="display-flex">
+                    <li><a href="/" target="_self">Home</a></li>
+                    <hr>
+                    <li><a href="#buy-now" target="_self">Comprar</a></li>
+                    <hr>
+                    <li><a href="https://support.rockstargames.com/br/categories/200013306" target="_blank">Suporte</a></li>
+                </ul>
+            </nav>
+
+        </header><!-- header -->
+
+        <main>
+            <section id="info-container">
+                <div id="gtas-logo">
+                    <img src="./src/images/logo-gta-v.svg" alt="Logo do jogo GTA V">
+                    <img src="./src/images/logo-gta-online.svg" alt="Logo do jogo GTA Online">
+                </div><!-- gtas logo -->
+
+                <div id="text-container">
+                    <h1>Já disponivel para PlayStation5 e Xbox Series X/S</h1>
+                    <p>Experimente os fênomenos de entreterimento Grand Theft Auto V e GTA Online</p>
+                </div><!-- text container -->
+
+                <div id="btn-container">
+                    <a href="#buy-now">Compre Já</a>
+                </div><!-- btn container -->
+            </section><!-- info container -->
+        </main><!-- main -->
+
+        <section id="buy-now">
+            <div id="container">
+                <div id="gta-cape">
+                    <img src="./src/images/gta5.jpg" alt="Capa dp jogo GTA V e GTA Online">
+                </div><!-- gta cape -->
+
+                <div id="plataforms-container">
+                    <h1>Grand Theft Auto V</h1>
+                    <p>Inclui modo história do GTA V e GTA Online</p>
+
+                    <div id="select-plataform">
+                        <button>Selecione a plataforma</button>
+                    </div>
+
+                    <div id="plataforms-buttons" class="disable">
+                        <a href="https://store.playstation.com/pt-br/product/UP1004-PPSA03420_00-GTAVCROSSGENBUND" target="_blank"  id="btn-ps5">
+                            <img src="./src/images/logo-ps5.svg" alt="Logo do videogame ps5">
+                        </a><!-- btn ps5 -->
+
+                        <a href="https://www.xbox.com/pt-BR/games/gta-v" target="_blank" id="btn-xb-series">
+                            <img src="./src/images/logo-xbox-series-s.svg" alt="Logo do videogame xbox series x/s">
+                        </a><!-- btn xbox series -->
+
+                        <a href="https://store.playstation.com/pt-br/product/UP1004-PPSA03420_00-GTAVCROSSGENBUND" target="_blank" id="btn-ps4">
+                            <img src="./src/images/logo-ps4.svg" alt="Logo do videogame ps4">
+                        </a><!-- btn ps4 -->
+
+                        <a href="https://www.xbox.com/pt-BR/games/gta-v" target="_blank" id="btn-xb-one">
+                            <img src="./src/images/logo-xbox-one.svg" alt="Logo do videogame xbox one">
+                        </a><!-- btn xbox one -->
+                        
+                        <a href="https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/" target="_blank" id="btn-pc">
+                            <img src="./src/images/logo-pc.svg" alt="Logo do pc">
+                        </a><!-- btn pc -->
+                    </div>
+                </div>
+            </div><!-- container -->
+        </section><!-- buy now -->
+
+        <script src="./src//js/script.js"></script>
+        <script src="https://kit.fontawesome.com/1537679900.js" crossorigin="anonymous"></script>
+    </body>
+</html>
